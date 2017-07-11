@@ -63,6 +63,8 @@ cd inputs/
 code/create-sample-sheet.tcsh hg19 400
 ```
 
+- __MANUALLY__ open the `inputs/sample-sheet.tsv` file (e.g. in Excel, etc.) and match up the Input samples with the experimental samples. 
+
 - run the pipeline
 
 ```
