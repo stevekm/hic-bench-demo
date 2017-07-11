@@ -2,6 +2,8 @@
 
 designed for use in NYU Langone Medical Center
 
+This demo will walk you through the setup for a ChIP-Seq analysis. See more docs for this pipeline [here](https://github.com/NYU-BFX/hic-bench/tree/master/pipelines/chipseq-standard).
+
 # Installation
 
 ## HiC-Bench
@@ -32,3 +34,39 @@ cd ...
 ```
 
 # Usage
+
+From within this directory, make a new directory for the analysis, and start a new HiC-Bench analysis there:
+
+```
+mkdir sample-project
+~/hic-bench/code/code.main/pipeline-new-analysis chipseq-standard sample-project
+```
+
+Change to that directory:
+
+```
+cd sample-project
+```
+
+and finish pipeline setup; 
+
+- set input files
+
+```
+code/setup-sample-files.sh ../source_data/
+```
+
+- create sample sheet template from samples, supplying genome version and fragment size
+
+```
+cd inputs/
+code/create-sample-sheet.tcsh hg19 400
+```
+
+- run the pipeline
+
+```
+# need to be in the parent analysis dir
+cd ..
+code.main/pipeline-execute sample-project yourname@emailaddress.org
+```
