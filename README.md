@@ -29,8 +29,8 @@ NOTE: you might have to delete the broken `data` symlink before you can reset it
 Clone this demo repository, and change to its directory
 
 ```
-git clone ...
-cd ...
+git clone https://github.com/stevekm/hic-bench-demo.git
+cd hic-bench-demo
 ```
 
 # Usage
