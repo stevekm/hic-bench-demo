@@ -63,7 +63,7 @@ cd inputs/
 code/create-sample-sheet.tcsh hg19 400
 ```
 
-- __MANUALLY__ open the `inputs/sample-sheet.tsv` file (e.g. in Excel, etc.) and match up the Input samples with the experimental samples. 
+- __MANUALLY__ open the `inputs/sample-sheet.tsv` file (e.g. in Excel, etc.) and match up the Input samples with the experimental samples. Refer to the [samplesheet](https://github.com/stevekm/hic-bench-demo/tree/master/example_samplesheet) provided with this repository for an example of what it should look like. 
 
 - run the pipeline
 
