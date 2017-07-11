@@ -1,0 +1,16 @@
+sample	control	group	fastq-r1	fastq-r2	genome	fragmentation-size
+Sample1-Control-H3K27AC	Sample1-Control-INPUT	Sample1-Control-H3K27AC	Sample1-Control-H3K27AC/Sample1-Control-H3K27AC_GTGAAA_L001_R1.fastq.gz	NA	hg19	400
+Sample1-Control-H3K4ME3	Sample1-Control-INPUT	Sample1-Control-H3K4ME3	Sample1-Control-H3K4ME3/Sample1-Control-H3K4ME3_GTAGAG_L001_R1.fastq.gz	NA	hg19	400
+Sample1-Control-INPUT	NA	Sample1-Control-INPUT	Sample1-Control-INPUT/Sample1-Control-INPUT_GTTTCG_L001_R1.fastq.gz	NA	hg19	400
+Sample1-Treatment-H3K27AC	Sample1-Treatment-INPUT	Sample1-Treatment-H3K27AC	Sample1-Treatment-H3K27AC/Sample1-Treatment-H3K27AC_GTGGCC_L001_R1.fastq.gz	NA	hg19	400
+Sample1-Treatment-H3K4ME3	Sample1-Treatment-INPUT	Sample1-Treatment-H3K4ME3	Sample1-Treatment-H3K4ME3/Sample1-Treatment-H3K4ME3_GTCCGC_L001_R1.fastq.gz	NA	hg19	400
+Sample1-Treatment-INPUT	NA	Sample1-Treatment-INPUT	Sample1-Treatment-INPUT/Sample1-Treatment-INPUT_CGTACG_L001_R1.fastq.gz	NA	hg19	400
+Sample2-Control-H3K27AC	Sample2-Control-INPUT	Sample2-Control-H3K27AC	Sample2-Control-H3K27AC/Sample2-Control-H3K27AC_ACAGTG_L001_R1.fastq.gz	NA	hg19	400
+Sample2-Control-H3K4ME3	Sample2-Control-INPUT	Sample2-Control-H3K4ME3	Sample2-Control-H3K4ME3/Sample2-Control-H3K4ME3_CGATGT_L001_R1.fastq.gz	NA	hg19	400
+Sample2-Control-H3K9AC	Sample2-Control-INPUT	Sample2-Control-H3K9AC	Sample2-Control-H3K9AC/Sample2-Control-H3K9AC_ACTTGA_L001_R1.fastq.gz	NA	hg19	400
+Sample2-Control-INPUT	NA	Sample2-Control-INPUT	Sample2-Control-INPUT/Sample2-Control-INPUT_GTGAAA_L001_R1.fastq.gz	NA	hg19	400
+Sample2-Treatment-H3K27AC	Sample2-Treatment-INPUT	Sample2-Treatment-H3K27AC	Sample2-Treatment-H3K27AC/Sample2-Treatment-H3K27AC_GCCAAT_L001_R1.fastq.gz	NA	hg19	400
+Sample2-Treatment-H3K4ME3	Sample2-Treatment-INPUT	Sample2-Treatment-H3K4ME3	Sample2-Treatment-H3K4ME3/Sample2-Treatment-H3K4ME3_TGACCA_L001_R1.fastq.gz	NA	hg19	400
+Sample2-Treatment-H3K9AC	Sample2-Treatment-INPUT	Sample2-Treatment-H3K9AC	Sample2-Treatment-H3K9AC/Sample2-Treatment-H3K9AC_GATCAG_L001_R1.fastq.gz	NA	hg19	400
+Sample2-Treatment-INPUT	NA	Sample2-Treatment-INPUT	Sample2-Treatment-INPUT/Sample2-Treatment-INPUT_GTGGCC_L001_R1.fastq.gz	NA	hg19	400
+
