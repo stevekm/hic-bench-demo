@@ -22,7 +22,14 @@ cd hic-bench
 ln -s /ifs/home/at570/disk1/Resources/Code/pipeline-master/data data
 ```
 
-NOTE: you might have to delete the broken `data` symlink before you can reset it.
+- __NOTE:__ you might have to delete the broken `data` symlink before you can reset it.
+
+- __NOTE:__ This guide was designed using the latest HiC-Bench version at commit id `f3d7a306aebaa5a3dfbcdcebc83a4ccedc513ccd`. If newer version have changed compatibility with this demo, you can go back to that version of HiC-Bench by running:
+```
+cd hic-bench
+git checkout f3d7a306aebaa5a3dfbcdcebc83a4ccedc513ccd
+```
+before proceeding with the rest of the demo.
 
 ## This Demo
 
@@ -32,6 +39,7 @@ Clone this demo repository, and change to its directory
 git clone https://github.com/stevekm/hic-bench-demo.git
 cd hic-bench-demo
 ```
+
 
 # Usage
 
